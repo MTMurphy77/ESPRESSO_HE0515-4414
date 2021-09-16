@@ -23,7 +23,7 @@ This repository contains the following folders:<br><br>
 FITS files produced by the ESPRESSO Data Reduction Software (DRS) containing the extracted, wavelength calibrated spectrum of both traces, of each echelle order, for each of the 17 quasar exposures.<br><br>
 
 &ndash; <b>Final_spectrum:</b><br>
-FITS file of the final, combined spectrum (hes0515m44114.fits) produced by the command in the UVES_popler.command file using the hes0515m4414.upl UVES_popler Log (UPL) file and the atmospheric line mask in atmomask.dat.;<br><br>
+FITS file of the final, combined spectrum (hes0515m44114.fits) produced by the command in the UVES_popler.command file using the hes0515m4414.upl UVES_popler Log (UPL) file and the atmospheric line mask in atmomask.dat.<br><br>
 
 &ndash; <b>Fitting_results:</b>
 <br>Absorption profile parameter files (fit\_[lmr]\_iso.f13) containing the input parameter values used to produce the final fitting sequence recorded in the corresponding fit\_[lmr]\_iso.f18 files. The absorption profile fit was run in VPFIT using the commented-out command in the first line of each fit*.f13 file. There are 3 fits, one for each of the "l"eft, "m"iddle and "r"ight regions. MM_VPFIT_2013-11-10.dat is a copy of the atomic data file used by VPFIT from the <a href="https://github.com/MTMurphy77/MMatomdat">repository</a> associated with <a href="http://adsabs.harvard.edu/abs/2014MNRAS.438..388M">Murphy & Berengut (2014, MNRAS, 438, 388, arXiv:1311.2949)</a>. The fit_[lmr].f1[38] files are the corresponding fits when no isotopic structures were used in fitting the various transitions (i.e. using the MM_VPFIT_2013-11-10_noiso.dat atomic data file). vp_setup.dat is the setup file for VPFIT used for all fits.
