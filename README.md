@@ -2,7 +2,7 @@
 
 <a href="https://doi.org/10.5281/zenodo.5512490"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5512490.svg" alt="DOI"></a>
 
-VLT/ESPRESSO spectra of HE0515-4414 and absorption profile fits associated with Murphy et al. (2021, A&amp;A, submitted).
+VLT/ESPRESSO spectra of HE0515-4414 and absorption profile fits associated with Murphy et al. (2021, A&amp;A, accepted, <a href="https://arxiv.org/abs/2112.05819">arXiv:2112.05819</a>).
 
 Read this README, and view/download/use the files within this repository, in conjunction with a careful read of the paper itself.
 
